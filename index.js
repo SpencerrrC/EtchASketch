@@ -1,5 +1,6 @@
-
-const sizeRaw = document.getElementById("sizeForm");
+const sizeRaw = document.getElementById("sizeForm").addEventListener("submit", function (event){
+    
+});
 const inputNumber = Number(sizeRaw); 
 function grid(size) {
     container = document.querySelector("#container");
@@ -10,3 +11,4 @@ function grid(size) {
         console.log("tile");
     }
 } 
+console.log(grid(inputNumber));

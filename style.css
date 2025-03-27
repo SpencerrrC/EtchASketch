@@ -52,4 +52,5 @@ h1{
 #container {
     border-color: #000000;
     border: 19px;
+    display: flex;
 }
