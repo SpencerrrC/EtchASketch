@@ -47,10 +47,17 @@ select {
 h1{
     color: aqua;
     background-color: blue;
+    text-align: center;
 }
 
 #container {
     border-color: #000000;
     border: 19px;
     display: flex;
+}
+
+.tile {
+  width: 10px;
+  background-color: blue;
+  border: 4px;
 }
