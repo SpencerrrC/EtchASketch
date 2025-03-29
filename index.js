@@ -10,6 +10,8 @@ function grid(size) {
     container = document.querySelector("#container");
     container.innerHTML = "";
     for (i=0; i<size; i++) {
+        const row = document.createElement("div"); 
+        row.className = "row";
             for (j=0; j<size; j++){
             const tile = document.createElement("div");
             tile.className = "tile";
@@ -18,6 +20,7 @@ function grid(size) {
             console.log("tile");
             localStorage.setItem(`tile-${i}`, "created");
         }
+        
     }
 }
 
