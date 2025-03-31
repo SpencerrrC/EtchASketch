@@ -50,11 +50,12 @@ h1{
     background-color: blue;
     text-align: center;
 }
+
 #container{
     
     display: flex;
-    width: 680px;
-    height: 680px;
+    width: 600px;
+    height: 600px;
     border-color: #000000;
     border: 1px solid black;
     justify-self: center;
@@ -68,9 +69,6 @@ h1{
 }
 
 .tile{
-  
-  background-color: red;
   border: 0.5px solid black;
   flex: 1;
-  
 }
